@@ -1,0 +1,15 @@
+  250  nano forkchild.c
+  251  clear
+  252  cd ..
+  253  mkdir class_activity3
+  254  cd class_activity3/
+  255  mkdir SHM-IPC
+  256  cd SHM-IPC/
+  257  cd ../..
+  258  ls
+  259  cd class_activity2/
+  260  ./forkchild 
+  261  cat result_forkchild.txt 
+  262  cd -
+  263  cd class_activity2/
+  264  history | tail -n 15 > command_used_forkchild.txt
